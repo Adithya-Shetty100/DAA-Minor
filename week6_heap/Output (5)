@@ -1,0 +1,21 @@
+gcc -Wall PES1201902351ss.c heapSort_sampletest.c -o heapSort_sampletest.out
+./heapSort_sampletest.out
+gcc -Wall PES1201902351ss.c heapSort_tests.o -o heapSort_tests.out
+./heapSort_tests.out
+guest-e1mlkj@pesu-OptiPlex-3070:~/Desktop/DAA/DAA Lab Session 09 - Heap Sort$ gcc -Wall PES1201902351ss.c heapSort_sampletest.c -o heapSort_sampletest.out
+guest-e1mlkj@pesu-OptiPlex-3070:~/Desktop/DAA/DAA Lab Session 09 - Heap Sort$ ./heapSort_sampletest.out
+5 1 4 2 8 9 
+0.000002 sec spent on test1 of heapSort()
+1 2 4 5 8 9 
+guest-e1mlkj@pesu-OptiPlex-3070:~/Desktop/DAA/DAA Lab Session 09 - Heap Sort$ gcc -Wall PES1201902351ss.c heapSort_tests.o -o heapSort_tests.out
+guest-e1mlkj@pesu-OptiPlex-3070:~/Desktop/DAA/DAA Lab Session 09 - Heap Sort$ ./heapSort_tests.out
+0.000009 sec spent on test1 of heapSort()
+0.000009 sec spent on test2 of heapSort()
+0.000007 sec spent on test3 of heapSort()
+0.024634 sec spent on test4 of heapSort()
+0.000000 sec spent on test5 of heapSort()
+0.015031 sec spent on test6 of heapSort()
+0.000001 sec spent on test1 of buildMaxHeap()
+0.000000 sec spent on test1 of maxHeapify()
+
+Total score: 40 out of 40.
